@@ -1,4 +1,4 @@
-# Markdown renderer using the new WASI support for workers
+# Markdown rendering using the new WASI support for workers
 
 This project uses the [new WASI support for workers](https://blog.cloudflare.com/announcing-wasi-on-workers/) to render Markdown using a (much faster than JS) WASM module. All the markdown rendering is done by [pulldown-cmark](https://docs.rs/crate/pulldown-cmark/latest) in the WASM module. A hosted preview is available [here](https://markdown.zegevlier.workers.dev/).
 
